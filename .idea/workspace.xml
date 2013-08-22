@@ -8,13 +8,19 @@
     <file path="/app.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377077816794" ignored="false" />
     <file path="/events.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1376981880813" ignored="false" />
     <file path="/dbConnection.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1376980761981" ignored="false" />
-    <file path="/users.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377162350315" ignored="false" />
+    <file path="/users.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377173201654" ignored="false" />
     <file path="$PROJECT_DIR$/../navitop/NaviWorld.html" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1376996076467" ignored="false" />
     <file path="/relatedevents.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377074384380" ignored="false" />
-    <file path="/badges.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377162475838" ignored="false" />
-    <file path="$PROJECT_DIR$/../navitop/js/nwBadgeContainer.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377160246323" ignored="false" />
+    <file path="/badges.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377163357821" ignored="false" />
+    <file path="$PROJECT_DIR$/../navitop/js/nwBadgeContainer.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377172561010" ignored="false" />
     <file path="$PROJECT_DIR$/../navitop/js/nwMenu.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377162500905" ignored="false" />
-    <file path="/nwBadgeContainer.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377160245972" ignored="false" />
+    <file path="/nwBadgeContainer.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377172561010" ignored="false" />
+    <file path="$PROJECT_DIR$/../navitop/js/nwStudentContainer.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377173621445" ignored="false" />
+    <file path="/nwStudentContainer.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377173621079" ignored="false" />
+    <file path="$PROJECT_DIR$/../navitop/js/nwStudent.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377172791231" ignored="false" />
+    <file path="/nwStudent.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377172790837" ignored="false" />
+    <file path="$PROJECT_DIR$/../navitop/js/nwBadgeIcon.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377173492356" ignored="false" />
+    <file path="/nwBadgeIcon.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377173492808" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +43,7 @@
       <file leaf-file-name="users.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="31" selection-start="952" selection-end="1116" vertical-scroll-proportion="0.0">
+            <state line="24" column="30" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -52,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="badges.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="badges.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/badges.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="43" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.864">
+            <state line="29" column="67" selection-start="1036" selection-end="1060" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -79,15 +85,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/WebStorm6/extLibs/nodejs-v0.10.12-src/core-modules-sources/lib/events.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="0" selection-start="3264" selection-end="3264" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,10 +94,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="18" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+            <state line="7" column="18" selection-start="110" selection-end="110" vertical-scroll-proportion="0.168">
               <folding />
             </state>
           </provider>
@@ -138,8 +135,8 @@
         <option value="$PROJECT_DIR$/dbConnection.js" />
         <option value="$PROJECT_DIR$/routes/relatedevents.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/routes/users.js" />
         <option value="$PROJECT_DIR$/routes/badges.js" />
+        <option value="$PROJECT_DIR$/routes/users.js" />
       </list>
     </option>
   </component>
@@ -218,6 +215,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="navidata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="navidata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="navidata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="navidata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badges" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -380,7 +413,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/users.js</url>
-          <line>31</line>
+          <line>32</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
@@ -430,13 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="119" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
@@ -474,7 +500,7 @@
     </entry>
     <entry file="file://$USER_HOME$/Library/Caches/WebStorm6/extLibs/nodejs-v0.10.12-src/core-modules-sources/lib/events.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="0" selection-start="3264" selection-end="3264" vertical-scroll-proportion="0.0">
+        <state line="92" column="69" selection-start="3207" selection-end="3207" vertical-scroll-proportion="0.9968">
           <folding />
         </state>
       </provider>
@@ -488,14 +514,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="31" selection-start="952" selection-end="1116" vertical-scroll-proportion="0.0">
+        <state line="24" column="30" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/badges.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="43" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.864">
+        <state line="29" column="67" selection-start="1036" selection-end="1060" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="18" selection-start="110" selection-end="110" vertical-scroll-proportion="0.168">
           <folding />
         </state>
       </provider>

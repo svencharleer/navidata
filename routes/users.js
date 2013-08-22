@@ -18,11 +18,12 @@ exports.list = function(req, res){
                 }
                 else
                     user = users[item.username];
+                var id = item.badge_image.replace(/\/|\./g, "_");
+                if(user.awards[id] == null)
+                    user.awards[id] = [];
 
-                if(user.awards[item.badge_image] == null)
-                    user.awards[item.badge_image] = [];
-
-                user.awards[item.badge_image].push(item.event_id);
+                user.awards[id].push(item.event_id);
+                user.username = item.username;
 
 
                 users[item.username] = user;

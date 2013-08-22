@@ -28,7 +28,7 @@ exports.list = function(req, res){
                 badge.description = item.badge_description;
                 badge.connotation = item.badge_connotation;
                 badge.id = item.badge_image.replace(/\/|\./g, "_");
-                badge.image = item.badge_image;
+                badge.image = item.badge_image.replace("/img", "http://localhost:3000/images");
 
                 badges[item.badge_image] = badge;
 
