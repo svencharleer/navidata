@@ -8,10 +8,13 @@
     <file path="/app.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377077816794" ignored="false" />
     <file path="/events.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1376981880813" ignored="false" />
     <file path="/dbConnection.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1376980761981" ignored="false" />
-    <file path="/users.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377091976094" ignored="false" />
+    <file path="/users.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377162350315" ignored="false" />
     <file path="$PROJECT_DIR$/../navitop/NaviWorld.html" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1376996076467" ignored="false" />
     <file path="/relatedevents.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377074384380" ignored="false" />
-    <file path="/badges.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377091678083" ignored="false" />
+    <file path="/badges.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377162475838" ignored="false" />
+    <file path="$PROJECT_DIR$/../navitop/js/nwBadgeContainer.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377160246323" ignored="false" />
+    <file path="$PROJECT_DIR$/../navitop/js/nwMenu.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377162500905" ignored="false" />
+    <file path="/nwBadgeContainer.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377160245972" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,46 +34,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="events.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/events.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="21" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="relatedevents.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/relatedevents.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="17" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="users.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="26" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0">
+            <state line="32" column="31" selection-start="952" selection-end="1116" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="badges.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="dbConnection.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dbConnection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="19" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="badges.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/badges.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="43" selection-start="162" selection-end="181" vertical-scroll-proportion="0.0">
+            <state line="36" column="43" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.864">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="483" column="0" selection-start="19579" selection-end="19579" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="response.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/express/lib/response.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="116" column="0" selection-start="2562" selection-end="2562" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Caches/WebStorm6/extLibs/nodejs-v0.10.12-src/core-modules-sources/lib/events.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="95" column="0" selection-start="3264" selection-end="3264" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="25" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.8020528">
+            <state line="23" column="119" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="18" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,37 +115,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/WebStorm6/extLibs/nodejs-v0.10.12-src/core-modules-sources/lib/events.js">
+      <file leaf-file-name="mongo_reply.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/responses/mongo_reply.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="0" selection-start="3956" selection-end="3956" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_stream_readable.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/WebStorm6/extLibs/nodejs-v0.10.12-src/core-modules-sources/lib/_stream_readable.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="737" column="0" selection-start="20935" selection-end="20935" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connection.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/connection.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="445" column="0" selection-start="17782" selection-end="17782" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connection_pool.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/connection_pool.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="191" column="0" selection-start="6827" selection-end="6827" vertical-scroll-proportion="0.0">
+            <state line="71" column="0" selection-start="3480" selection-end="3480" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,15 +138,15 @@
         <option value="$PROJECT_DIR$/dbConnection.js" />
         <option value="$PROJECT_DIR$/routes/relatedevents.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/routes/badges.js" />
         <option value="$PROJECT_DIR$/routes/users.js" />
+        <option value="$PROJECT_DIR$/routes/badges.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1897" />
-    <option name="height" value="1065" />
+    <option name="width" value="1663" />
+    <option name="height" value="967" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -171,6 +174,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,23 +203,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="navidata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="navidata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -266,17 +283,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1897" height="1065" extended-state="6" />
+    <frame x="0" y="22" width="1663" height="967" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26414087" sideWeight="0.75132275" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24867725" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20243903" sideWeight="0.77095634" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24675325" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33015874" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22904368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -356,35 +373,24 @@
           <line>6</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/users.js</url>
+          <line>7</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/users.js</url>
+          <line>31</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="14" />
+      <option name="time" value="19" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/connection_pool.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbConnection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="25" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/responses/mongo_reply.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="3480" selection-end="3480" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="483" column="0" selection-start="19579" selection-end="19579" vertical-scroll-proportion="0.0">
+        <state line="191" column="0" selection-start="6827" selection-end="6827" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -410,37 +416,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/WebStorm6/extLibs/nodejs-v0.10.12-src/core-modules-sources/lib/events.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="0" selection-start="3956" selection-end="3956" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/relatedevents.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="17" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="383" column="0" selection-start="10979" selection-end="10979" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/badges.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="43" selection-start="162" selection-end="181" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="26" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -452,9 +430,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="18" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="25" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.8020528">
+        <state line="23" column="119" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbConnection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="19" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="383" column="0" selection-start="10979" selection-end="10979" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/responses/mongo_reply.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="3480" selection-end="3480" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="483" column="0" selection-start="19579" selection-end="19579" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/WebStorm6/extLibs/nodejs-v0.10.12-src/core-modules-sources/lib/events.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="0" selection-start="3264" selection-end="3264" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/response.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="0" selection-start="2562" selection-end="2562" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="31" selection-start="952" selection-end="1116" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/badges.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="43" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.864">
           <folding />
         </state>
       </provider>

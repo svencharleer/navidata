@@ -2,8 +2,9 @@ var db = require('../dbConnection.js').db;
 
 exports.list = function(req, res){
     db.collection('events', function(err, collection) {
-        collection.find({'verb': 'awarded'}).toArray(function(err, items) {
+        collection.find({'verb': 'awarded'}).batchSize(10).toArray(function(err, items) {
             var users = {};
+            console.log(err);
             console.log(items.length);
             for(var i = 0; i < items.length; i++)
             {
@@ -27,8 +28,9 @@ exports.list = function(req, res){
                 users[item.username] = user;
 
             }
-
-            res.send(users);
+            res.writeHead(200, { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' });
+            res.write(JSON.stringify(users));
+            res.end();
         });
     });
 };

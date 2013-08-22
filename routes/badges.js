@@ -5,7 +5,7 @@ var db = require('../dbConnection.js').db;
 
 exports.list = function(req, res){
     db.collection('events', function(err, collection) {
-        collection.find({'verb': 'awarded'}).toArray(function(err, items) {
+        collection.find({'verb': 'awarded'}).batchSize(20).toArray(function(err, items) {
             var badges = {};
             console.log(items.length);
             for(var i = 0; i < items.length; i++)
@@ -25,13 +25,17 @@ exports.list = function(req, res){
                     badge.awardedTo[item.username] = [];
 
                 badge.awardedTo[item.username].push(item.event_id);
-
+                badge.description = item.badge_description;
+                badge.connotation = item.badge_connotation;
+                badge.id = item.badge_image.replace(/\/|\./g, "_");
+                badge.image = item.badge_image;
 
                 badges[item.badge_image] = badge;
 
             }
-
-            res.send(badges);
+            res.writeHead(200, { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' });
+            res.write(JSON.stringify(badges));
+            res.end();
         });
     });
 };
