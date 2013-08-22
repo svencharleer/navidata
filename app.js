@@ -8,6 +8,7 @@ var express = require('express')
   , events = require('./routes/events')
     , users = require('./routes/users')
     , relatedevents = require('./routes/relatedevents')
+    , activity = require('./routes/activity')
     , badges = require('./routes/badges')
   , http = require('http')
     , db = require('./dbConnection')
@@ -36,10 +37,12 @@ app.get('/events', events.list);
 app.get('/events/username/:username', events.username);
 app.get('/events/username/:username/:verb', events.username_verb);
 app.get('/events/verb/:verb', events.verb);
-app.get('/events/starttime/:starttime', events.starttime);
 app.get('/users', users.list);
 app.get('/relatedevents/:eventid', relatedevents.list);
 app.get('/badges', badges.list);
+app.get('/activity', activity.list);
+app.get('/activity/:date', activity.date);
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
