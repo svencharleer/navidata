@@ -2,9 +2,9 @@ var db = require('../dbConnection.js').db;
 
 exports.list = function(req, res){
 
-
+    var query = {verb: 'awarded'};
     var map = function() {
-        day = Date.UTC(new Date(this.starttime).getFullYear(), new Date(this.starttime).getMonth(), new Date(this.starttime).getDate());
+        day = Date.UTC(new Date(this.timestamp).getFullYear(), new Date(this.timestamp).getMonth(), new Date(this.timestamp).getDate());
 
         emit({day: day}, {count: 1});
     }
@@ -18,12 +18,15 @@ exports.list = function(req, res){
 
         return {count: count};
     }
-    var options = {out:{inline:1}};//, sort:{"starttime":1}};
+    var options = {out:{inline:1},query:{verb: { $ne:'awarded'}}};//, sort:{"starttime":1}};
 
     db.collection('events', function(err, collection) {
         collection.mapReduce(map, reduce ,options,
             function(err, items) {
-                res.send(items);
+                res.writeHead(200, { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' });
+                res.write(JSON.stringify(items));
+                res.end();
+
             });
     });
 };
