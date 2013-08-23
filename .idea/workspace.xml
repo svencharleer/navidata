@@ -5,7 +5,7 @@
     <ignored path="navidata.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1376916938424" ignored="false" />
-    <file path="/app.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377176318712" ignored="false" />
+    <file path="/app.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377252057401" ignored="false" />
     <file path="/events.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1376981880813" ignored="false" />
     <file path="/dbConnection.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1376980761981" ignored="false" />
     <file path="/users.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377182263750" ignored="false" />
@@ -22,15 +22,16 @@
     <file path="$PROJECT_DIR$/../navitop/js/nwBadgeIcon.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377175611303" ignored="false" />
     <file path="/nwBadgeIcon.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377175289932" ignored="false" />
     <file path="/NaviWorld.html" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377185453367" ignored="false" />
-    <file path="$PROJECT_DIR$/../navitop/css/naviWorld.css" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377246148075" ignored="false" />
-    <file path="/naviWorld.css" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377246147691" ignored="false" />
-    <file path="/activity.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377249267350" ignored="false" />
-    <file path="$PROJECT_DIR$/../navitop/js/nwNaviActivityByDayGraph.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377251611609" ignored="false" />
-    <file path="/nwNaviActivityByDayGraph.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377251485251" ignored="false" />
+    <file path="$PROJECT_DIR$/../navitop/css/naviWorld.css" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377253876912" ignored="false" />
+    <file path="/naviWorld.css" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377253867032" ignored="false" />
+    <file path="/activity.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377251940140" ignored="false" />
+    <file path="$PROJECT_DIR$/../navitop/js/nwNaviActivityByDayGraph.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377254468821" ignored="false" />
+    <file path="/nwNaviActivityByDayGraph.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377254375683" ignored="false" />
     <file path="$PROJECT_DIR$/../navitop/js/nwLogic.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377181256415" ignored="false" />
     <file path="/nwLogic.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377179828583" ignored="false" />
     <file path="/a.dummy" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377181210857" ignored="false" />
     <file path="/nwMenu.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377185168698" ignored="false" />
+    <file path="/fragment.js2" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377252221158" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
       <file leaf-file-name="events.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/events.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="21" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
+            <state line="11" column="40" selection-start="288" selection-end="323" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -68,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="activity.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/activity.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="61" selection-start="571" selection-end="571" vertical-scroll-proportion="0.80213904">
+            <state line="36" column="35" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -104,10 +105,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="20" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
+            <state line="43" column="24" selection-start="1284" selection-end="1284" vertical-scroll-proportion="1.1229947">
               <folding />
             </state>
           </provider>
@@ -154,9 +155,9 @@
         <option value="$PROJECT_DIR$/dbConnection.js" />
         <option value="$PROJECT_DIR$/routes/relatedevents.js" />
         <option value="$PROJECT_DIR$/routes/badges.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/users.js" />
         <option value="$PROJECT_DIR$/routes/activity.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -486,13 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="20" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/badges.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="67" selection-start="1036" selection-end="1060" vertical-scroll-proportion="0.0">
@@ -509,14 +503,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/events.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
+        <state line="11" column="40" selection-start="288" selection-end="323" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/activity.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="61" selection-start="571" selection-end="571" vertical-scroll-proportion="0.80213904">
+        <state line="36" column="35" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="24" selection-start="1284" selection-end="1284" vertical-scroll-proportion="1.1229947">
           <folding />
         </state>
       </provider>
