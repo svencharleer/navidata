@@ -163,7 +163,14 @@ exports.listActivity = function(req, _res){
                     var ids = [];
                     for(var i = 0; i < items.length; i++)
                          ids.push(items[i].event_id);
-                    getRelatedActivity(res,ids);
+                    if(ids.length != 0)
+                        getRelatedActivity(res,ids);
+                    else
+                    {
+                        res.writeHead(200, { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' });
+                        res.write(JSON.stringify([]));
+                        res.end();
+                    }
                 });
 
 

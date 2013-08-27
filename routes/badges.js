@@ -25,6 +25,8 @@ exports.list = function(req, res){
                     badge.awardedTo[item.username] = [];
 
                 badge.awardedTo[item.username].push(item.event_id);
+                if(badge.eventIds == null) badge.eventIds = [];
+                badge.eventIds.push(item.event_id);
                 badge.description = item.badge_description;
                 badge.connotation = item.badge_connotation;
                 badge.id = item.badge_image.replace(/\/|\./g, "_");

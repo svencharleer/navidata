@@ -10,8 +10,8 @@
     <file path="/dbConnection.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1376980761981" ignored="false" />
     <file path="/users.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377182263750" ignored="false" />
     <file path="$PROJECT_DIR$/../navitop/NaviWorld.html" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377601545413" ignored="false" />
-    <file path="/relatedevents.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377613612394" ignored="false" />
-    <file path="/badges.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377163357821" ignored="false" />
+    <file path="/relatedevents.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377627669585" ignored="false" />
+    <file path="/badges.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377627477996" ignored="false" />
     <file path="$PROJECT_DIR$/../navitop/js/nwBadgeContainer.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377608440547" ignored="false" />
     <file path="$PROJECT_DIR$/../navitop/js/nwMenu.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377185355216" ignored="false" />
     <file path="/nwBadgeContainer.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377172561010" ignored="false" />
@@ -19,14 +19,14 @@
     <file path="/nwStudentContainer.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377173621079" ignored="false" />
     <file path="$PROJECT_DIR$/../navitop/js/nwStudent.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377607840891" ignored="false" />
     <file path="/nwStudent.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377607840891" ignored="false" />
-    <file path="$PROJECT_DIR$/../navitop/js/nwBadgeIcon.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377610279565" ignored="false" />
-    <file path="/nwBadgeIcon.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377610262631" ignored="false" />
+    <file path="$PROJECT_DIR$/../navitop/js/nwBadgeIcon.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377627122860" ignored="false" />
+    <file path="/nwBadgeIcon.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377626908402" ignored="false" />
     <file path="/NaviWorld.html" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377260669161" ignored="false" />
     <file path="$PROJECT_DIR$/../navitop/css/naviWorld.css" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377253876912" ignored="false" />
     <file path="/naviWorld.css" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377253867032" ignored="false" />
     <file path="/activity.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377607552754" ignored="false" />
-    <file path="$PROJECT_DIR$/../navitop/js/nwNaviActivityByDayGraph.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377613016519" ignored="false" />
-    <file path="/nwNaviActivityByDayGraph.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377613015362" ignored="false" />
+    <file path="$PROJECT_DIR$/../navitop/js/nwNaviActivityByDayGraph.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377627222700" ignored="false" />
+    <file path="/nwNaviActivityByDayGraph.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377627108716" ignored="false" />
     <file path="$PROJECT_DIR$/../navitop/js/nwLogic.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377181256415" ignored="false" />
     <file path="/nwLogic.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377179828583" ignored="false" />
     <file path="/a.dummy" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377181210857" ignored="false" />
@@ -61,19 +61,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="events.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/events.js">
+      <file leaf-file-name="relatedevents.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/relatedevents.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="70" selection-start="858" selection-end="867" vertical-scroll-proportion="0.0">
+            <state line="16" column="34" selection-start="419" selection-end="419" vertical-scroll-proportion="0.43399638">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="relatedevents.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/relatedevents.js">
+      <file leaf-file-name="cursor.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/cursor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="490" selection-end="490" vertical-scroll-proportion="0.33217993">
+            <state line="659" column="0" selection-start="25947" selection-end="25947" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collection.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1216" column="0" selection-start="53112" selection-end="53112" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/db.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1670" column="0" selection-start="71995" selection-end="71995" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -88,37 +106,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/activity.js">
+      <file leaf-file-name="mongo_reply.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/responses/mongo_reply.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="47" selection-start="1369" selection-end="1410" vertical-scroll-proportion="0.0">
+            <state line="69" column="0" selection-start="3450" selection-end="3450" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="64" selection-start="737" selection-end="759" vertical-scroll-proportion="0.0">
+            <state line="425" column="0" selection-start="16881" selection-end="16881" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbConnection.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dbConnection.js">
+      <file leaf-file-name="events.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Caches/WebStorm6/extLibs/nodejs-v0.10.12-src/core-modules-sources/lib/events.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="19" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+            <state line="94" column="0" selection-start="3222" selection-end="3222" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file leaf-file-name="connection_pool.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/connection_pool.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="39" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.0">
+            <state line="190" column="0" selection-start="6789" selection-end="6789" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,25 +145,7 @@
       <file leaf-file-name="badges.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/badges.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="response.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/express/lib/response.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="0" selection-start="2562" selection-end="2562" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="28" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+            <state line="27" column="43" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -163,10 +163,10 @@
       <list>
         <option value="$PROJECT_DIR$/routes/events.js" />
         <option value="$PROJECT_DIR$/dbConnection.js" />
-        <option value="$PROJECT_DIR$/routes/badges.js" />
         <option value="$PROJECT_DIR$/routes/users.js" />
         <option value="$PROJECT_DIR$/routes/activity.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/badges.js" />
         <option value="$PROJECT_DIR$/routes/relatedevents.js" />
       </list>
     </option>
@@ -333,7 +333,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20243903" sideWeight="0.7651515" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23484848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23484848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22750424" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -413,51 +413,24 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/relatedevents.js</url>
-          <line>20</line>
-          <option name="timeStamp" value="32" />
+          <line>122</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/relatedevents.js</url>
+          <line>6</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/relatedevents.js</url>
+          <line>163</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="33" />
+      <option name="time" value="37" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/connection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="445" column="0" selection-start="17782" selection-end="17782" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/WebStorm6/extLibs/nodejs-v0.10.12-src/core-modules-sources/lib/_stream_readable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="737" column="0" selection-start="20935" selection-end="20935" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/responses/mongo_reply.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="3480" selection-end="3480" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="483" column="0" selection-start="19579" selection-end="19579" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/WebStorm6/extLibs/nodejs-v0.10.12-src/core-modules-sources/lib/events.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="69" selection-start="3207" selection-end="3207" vertical-scroll-proportion="0.9968" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbConnection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/response.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="116" column="0" selection-start="2562" selection-end="2562" vertical-scroll-proportion="0.0">
@@ -479,20 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/badges.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="39" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/activity.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="47" selection-start="1369" selection-end="1410" vertical-scroll-proportion="0.0">
@@ -507,6 +466,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="39" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1216" column="0" selection-start="53112" selection-end="53112" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/badges.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="43" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/cursor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="659" column="0" selection-start="25947" selection-end="25947" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1670" column="0" selection-start="71995" selection-end="71995" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/base.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="383" column="0" selection-start="10979" selection-end="10979" vertical-scroll-proportion="0.0">
@@ -514,9 +508,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/responses/mongo_reply.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="3450" selection-end="3450" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="425" column="0" selection-start="16881" selection-end="16881" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/WebStorm6/extLibs/nodejs-v0.10.12-src/core-modules-sources/lib/events.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="0" selection-start="3222" selection-end="3222" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/connection_pool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="190" column="0" selection-start="6789" selection-end="6789" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/relatedevents.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="490" selection-end="490" vertical-scroll-proportion="0.33217993">
+        <state line="16" column="34" selection-start="419" selection-end="419" vertical-scroll-proportion="0.43399638">
           <folding />
         </state>
       </provider>
