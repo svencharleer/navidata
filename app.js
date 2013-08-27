@@ -39,6 +39,7 @@ app.get('/events/username/:username/:verb', events.username_verb);
 app.get('/events/verb/:verb', events.verb);
 app.get('/users', users.list);
 app.get('/relatedevents/:eventid', relatedevents.list);
+app.get('/relatedevents/activity/:eventid', relatedevents.listActivity);
 app.get('/badges', badges.list);
 app.get('/activity', activity.list);
 app.get('/activity/total/:user', activity.listForUser);
