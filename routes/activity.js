@@ -32,9 +32,20 @@ exports.list = function(req, res){
     getActivity(res, {verb: { $ne: 'awarded'}});
 };
 
+exports.listForUser = function(req, res){
+    var _user = JSON.parse(req.params.user);
+    getActivity(res, {verb: { $ne: 'awarded'}, username:{$in:_user}});
+};
+
 exports.listForVerb = function(req, res){
     var _verb = req.params.verb;
     getActivity(res, {verb: _verb});
+};
+
+exports.listForVerbAndUser = function(req, res){
+    var _verb = req.params.verb;
+    var _user = JSON.parse(req.params.user);
+    getActivity(res, {verb: _verb, username: {$in:_user}});
 };
 
 
