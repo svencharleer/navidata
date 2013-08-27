@@ -2,6 +2,28 @@ var db = require('../dbConnection.js').db;
 
 
 
+function getBadgeRelatedEvents(badges, collection, callback)
+{
+    if(badges.length == 0){ callback([]); return;};
+    var query = [];
+
+
+    for(var i = 0; i <badges.length; i++)
+    {
+        query.push({'starttime':
+        {$gte: (badges[0][0].periodstart),
+            $lte: (badges[0][0].periodend)},
+            'verb': badges[0][1]
+            // NOT NECESSARY FOR WHAT WE'RE DOING HERE ATM 'username': badge.username
+        });
+    }
+
+    collection.find({$or:query}).toArray(function(err, items)
+        {
+            callback(items);
+        });
+}
+
 function tweetBadge(badge, collection, callback)
 {
     var limit = 0;
@@ -67,7 +89,7 @@ exports.list = function(req, _res){
 };
 
 
-function getRelatedActivity(res, items) {
+function getRelatedActivity(res, items, verb) {
     var map = function () {
         day = Date.UTC(new Date(this.timestamp).getFullYear(), new Date(this.timestamp).getMonth(), new Date(this.timestamp).getDate());
 
@@ -83,7 +105,17 @@ function getRelatedActivity(res, items) {
 
         return {count: count};
     }
-    var options = {out: {inline: 1}, query: {event_id: {$in:items}}};//, sort:{"starttime":1}};
+    var query = {};
+    if(verb != null)
+    {
+        query = {event_id: {$in:items}, verb: verb};
+    }
+    else
+    {
+        query =  {event_id: {$in:items}};
+    }
+
+    var options = {out: {inline: 1}, query: query};//, sort:{"starttime":1}};
 
     db.collection('events', function (err, collection) {
         collection.mapReduce(map, reduce, options,
@@ -96,29 +128,44 @@ function getRelatedActivity(res, items) {
     });
 }
 
-
 exports.listActivity = function(req, _res){
     res = _res;
     db.collection('events', function(err, collection) {
-        var eventid = parseInt(req.params.eventid);
+        var eventidsRaw = JSON.parse(req.params.eventid);
+        var eventids = [];
+        for(var i = 0; i < eventidsRaw.length;i++)
+            eventids.push(parseInt(eventidsRaw[i]));
+
+
+
+
+        var verb = req.params.verb;
+
         db.collection('events', function(err, collection) {
-            collection.findOne({'event_id': eventid}, function(err, item) {
-                if(item.object.indexOf('tweet'))
-                    tweetBadge(item, collection, function(items)
-                        {
-                            var ids = [];
-                            for(var i = 0; i < items.length; i++)
-                                 ids.push(items[i].event_id);
-                            getRelatedActivity(res,ids);
-                        });
-                else if(item.object.indexOf('Commenter'))
-                    commentBadge(item, collection, function(items)
-                        {
-                            var ids = [];
-                            for(var i = 0; i < items.length; i++)
-                                ids.push(items[i].event_id);
-                            getRelatedActivity(res,ids);
-                        });
+            collection.find({'event_id': {$in: eventids}}).toArray(function(err, items) {
+                for(var i=0; i < items.length; i++)
+                {
+                    var item = items[i];
+                    var badgeTypes = [];
+                    if(item.object.indexOf('tweet') != -1 && (verb == "total" || verb == "tweeted"))
+                         if(badgeTypes.indexOf('tweeted') == -1)
+                            badgeTypes.push([item,"tweeted"]);
+                    if(item.object.indexOf('Commenter') != -1 && (verb == "total" || verb == "commented"))
+                        if(badgeTypes.indexOf('commented') == -1)
+                            badgeTypes.push([item,"commented"]);
+                    if(item.object.indexOf('post') != -1 && (verb == "total" || verb == "posted"))
+                        if(badgeTypes.indexOf('posted') == -1)
+                            badgeTypes.push([item,"posted"]);
+                }
+
+                getBadgeRelatedEvents(badgeTypes, collection, function(items)
+                {
+                    var ids = [];
+                    for(var i = 0; i < items.length; i++)
+                         ids.push(items[i].event_id);
+                    getRelatedActivity(res,ids);
+                });
+
 
             });
         });
