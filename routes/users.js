@@ -29,12 +29,30 @@ exports.list = function(req, res){
                 users[item.username] = user;
 
             }
-            res.writeHead(200, { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' });
-            res.write(JSON.stringify(users));
-            res.end();
+            db.collection('students', function(err, collection) {
+                collection.find().toArray(function(err, items){
+                        for(var i = 0; i < items.length;i++)
+                        {
+                            if(users[items[i].Twitter] != null)
+                            {
+                            users[items[i].Twitter].group = items[i].group_name;
+                            users[items[i].Twitter].fullname = items[i].student_name;
+                            }
+                        }
+                        res.writeHead(200, { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' });
+                        res.write(JSON.stringify(users));
+                        res.end();
+
+                    }
+                );
+            });
+
+
         });
     });
 };
+
+
 
 
 

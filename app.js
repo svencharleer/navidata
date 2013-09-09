@@ -45,7 +45,9 @@ app.get('/activity', activity.list);
 app.get('/activity/total/:user', activity.listForUser);
 app.get('/activity/:verb', activity.listForVerb);
 app.get('/activity/:verb/:user', activity.listForVerbAndUser);
-app.get('/activity/:date', activity.date);
+app.get('/activitybydate/:date/:verb', activity.date);
+app.get('/activitybydate/:date', activity.date);
+
 
 
 http.createServer(app).listen(app.get('port'), function(){

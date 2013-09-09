@@ -50,11 +50,17 @@ exports.listForVerbAndUser = function(req, res){
 
 
 exports.date = function(req, res){
-    var starttime = req.params.starttime();
+    var verb = req.params.verb;
+    var starttime = new Date(parseInt(req.params.date)).toISOString();
+    var nextday = new Date(parseInt(req.params.date)+3600000*24).toISOString();
+    var query = verb != null ? {'starttime': {$gte:starttime, $lte: nextday}, 'verb': verb} : {'starttime': {$gte:starttime, $lte: nextday}} ;
+
     console.log('Retrieving event: ' + starttime);
     db.collection('events', function(err, collection) {
-        collection.find({'starttime': starttime}).toArray(function(err, items) {
-            res.send(items);
+        collection.find(query).toArray(function(err, items) {
+            res.writeHead(200, { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' });
+            res.write(JSON.stringify(items));
+            res.end();
         });
     });
 };

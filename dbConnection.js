@@ -9,7 +9,7 @@ var Server = mongo.Server,
 
 
 var mongoserver = new Server('localhost', 27017, {auto_reconnect: true}),
-    db = new Db("stepupv2", mongoserver);
+    db = new Db("stepupv3", mongoserver);
 
 db.open(function(err, db) {
     if(!err) {
