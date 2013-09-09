@@ -10,6 +10,8 @@ var Server = mongo.Server,
 
 var mongoserver = new Server('localhost', 27017, {auto_reconnect: true}),
     db = new Db("stepupv3", mongoserver);
+var mongoserver2 = new Server('localhost', 27017, {auto_reconnect: true}),
+    dbBlogs = new Db("chikul13blogs", mongoserver2);
 
 db.open(function(err, db) {
     if(!err) {
@@ -23,5 +25,17 @@ db.open(function(err, db) {
     }
 });
 
-exports.db = db;
+dbBlogs.open(function(err, db) {
+    if(!err) {
+        console.log("Connected to 'chikul13blogs' database");
+        db.collection('blogs', {strict:true}, function(err, collection) {
+            if (err) {
+                console.log("The 'chikul13blogs' collection doesn't exist");
 
+            }
+        });
+    }
+});
+
+exports.db = db;
+exports.dbBlogs = dbBlogs;

@@ -7,6 +7,7 @@ var express = require('express')
   , routes = require('./routes')
   , events = require('./routes/events')
     , users = require('./routes/users')
+    , blogs = require('./routes/blogs')
     , relatedevents = require('./routes/relatedevents')
     , activity = require('./routes/activity')
     , badges = require('./routes/badges')
@@ -47,6 +48,10 @@ app.get('/activity/:verb', activity.listForVerb);
 app.get('/activity/:verb/:user', activity.listForVerbAndUser);
 app.get('/activitybydate/:date/:verb', activity.date);
 app.get('/activitybydate/:date', activity.date);
+app.get('/blogposts', blogs.list);
+app.get('/blogposts/:url', blogs.blogpost);
+
+
 
 
 
