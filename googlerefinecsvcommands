@@ -1,0 +1,940 @@
+[
+  {
+    "op": "core/column-addition",
+    "description": "Create column stoptime at index 10 based on column originalrequest using expression grel:parseJson(value).endtime",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "context",
+          "selectBlank": false,
+          "columnName": "context",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "chikul13",
+                "l": "chikul13"
+              }
+            }
+          ]
+        },
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "verb",
+          "selectBlank": false,
+          "columnName": "verb",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "awarded",
+                "l": "awarded"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "newColumnName": "stoptime",
+    "columnInsertIndex": 10,
+    "baseColumnName": "originalrequest",
+    "expression": "grel:parseJson(value).endtime",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column stoptime",
+    "columnName": "stoptime"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column periodend at index 10 based on column originalrequest using expression grel:parseJson(value).originalrequest.enddate",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "context",
+          "selectBlank": false,
+          "columnName": "context",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "chikul13",
+                "l": "chikul13"
+              }
+            }
+          ]
+        },
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "verb",
+          "selectBlank": false,
+          "columnName": "verb",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "awarded",
+                "l": "awarded"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "newColumnName": "periodend",
+    "columnInsertIndex": 10,
+    "baseColumnName": "originalrequest",
+    "expression": "grel:parseJson(value).originalrequest.enddate",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column periodstart at index 10 based on column originalrequest using expression grel:parseJson(value).originalrequest.startdate",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "context",
+          "selectBlank": false,
+          "columnName": "context",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "chikul13",
+                "l": "chikul13"
+              }
+            }
+          ]
+        },
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "verb",
+          "selectBlank": false,
+          "columnName": "verb",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "awarded",
+                "l": "awarded"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "newColumnName": "periodstart",
+    "columnInsertIndex": 10,
+    "baseColumnName": "originalrequest",
+    "expression": "grel:parseJson(value).originalrequest.startdate",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column image at index 10 based on column originalrequest using expression grel:parseJson(value).originalrequest.badge.image",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "context",
+          "selectBlank": false,
+          "columnName": "context",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "chikul13",
+                "l": "chikul13"
+              }
+            }
+          ]
+        },
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "verb",
+          "selectBlank": false,
+          "columnName": "verb",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "awarded",
+                "l": "awarded"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "newColumnName": "image",
+    "columnInsertIndex": 10,
+    "baseColumnName": "originalrequest",
+    "expression": "grel:parseJson(value).originalrequest.badge.image",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column badge_connotation at index 10 based on column originalrequest using expression grel:parseJson(value).originalrequest.connotation",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "context",
+          "selectBlank": false,
+          "columnName": "context",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "chikul13",
+                "l": "chikul13"
+              }
+            }
+          ]
+        },
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "verb",
+          "selectBlank": false,
+          "columnName": "verb",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "awarded",
+                "l": "awarded"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "newColumnName": "badge_connotation",
+    "columnInsertIndex": 10,
+    "baseColumnName": "originalrequest",
+    "expression": "grel:parseJson(value).originalrequest.connotation",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column image to badge_image",
+    "oldColumnName": "image",
+    "newColumnName": "badge_image"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column periodstart using expression value.toDate()",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "context",
+          "selectBlank": false,
+          "columnName": "context",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "chikul13",
+                "l": "chikul13"
+              }
+            }
+          ]
+        },
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "verb",
+          "selectBlank": false,
+          "columnName": "verb",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "awarded",
+                "l": "awarded"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "periodstart",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column periodend using expression value.toDate()",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "context",
+          "selectBlank": false,
+          "columnName": "context",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "chikul13",
+                "l": "chikul13"
+              }
+            }
+          ]
+        },
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "verb",
+          "selectBlank": false,
+          "columnName": "verb",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "awarded",
+                "l": "awarded"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "periodend",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column timestamp using expression value.toDate()",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "context",
+          "selectBlank": false,
+          "columnName": "context",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "chikul13",
+                "l": "chikul13"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "timestamp",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column badge_description at index 10 based on column originalrequest using expression grel:parseJson(value).originalrequest.badge.description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "context",
+          "selectBlank": false,
+          "columnName": "context",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "chikul13",
+                "l": "chikul13"
+              }
+            }
+          ]
+        },
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "verb",
+          "selectBlank": false,
+          "columnName": "verb",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "awarded",
+                "l": "awarded"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "newColumnName": "badge_description",
+    "columnInsertIndex": 10,
+    "baseColumnName": "originalrequest",
+    "expression": "grel:parseJson(value).originalrequest.badge.description",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column originalrequest",
+    "columnName": "originalrequest"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column username",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "context",
+          "selectBlank": false,
+          "columnName": "context",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "chikul13",
+                "l": "chikul13"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "username",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Alex Witteveen"
+        ],
+        "to": "WitteveenAlex"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column username",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "context",
+          "selectBlank": false,
+          "columnName": "context",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "chikul13",
+                "l": "chikul13"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "username",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Gert van Wijn"
+        ],
+        "to": "gertvanwijn"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column username",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "context",
+          "selectBlank": false,
+          "columnName": "context",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "chikul13",
+                "l": "chikul13"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "username",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Joris Schelfaut"
+        ],
+        "to": "JorisSchelfaut"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column username",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "context",
+          "selectBlank": false,
+          "columnName": "context",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "chikul13",
+                "l": "chikul13"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "username",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Kevin Delval"
+        ],
+        "to": "KevinDelval"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column username",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "context",
+          "selectBlank": false,
+          "columnName": "context",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "chikul13",
+                "l": "chikul13"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "username",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Michael Gobbers"
+        ],
+        "to": "MichaelGobbers"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column username",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "context",
+          "selectBlank": false,
+          "columnName": "context",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "chikul13",
+                "l": "chikul13"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "username",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Nik Torfs"
+        ],
+        "to": "NikTorfs"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column username",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "context",
+          "selectBlank": false,
+          "columnName": "context",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "chikul13",
+                "l": "chikul13"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "username",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Peter Bosmans"
+        ],
+        "to": "peterbosmanspb"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column username",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "context",
+          "selectBlank": false,
+          "columnName": "context",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "chikul13",
+                "l": "chikul13"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "username",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Sander Voeten"
+        ],
+        "to": "sandervoeten"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column username",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "context",
+          "selectBlank": false,
+          "columnName": "context",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "chikul13",
+                "l": "chikul13"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "username",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Thomas Demoor"
+        ],
+        "to": "Thomas_DeMoor"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column username",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "context",
+          "selectBlank": false,
+          "columnName": "context",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "chikul13",
+                "l": "chikul13"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "username",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Tom Piot"
+        ],
+        "to": "tommpiot"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column username",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "context",
+          "selectBlank": false,
+          "columnName": "context",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "chikul13",
+                "l": "chikul13"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "username",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Wouter Moermans"
+        ],
+        "to": "WouterMoermans"
+      }
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column username using expression value.toLowercase()",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "context",
+          "selectBlank": false,
+          "columnName": "context",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "chikul13",
+                "l": "chikul13"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "username",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  }
+]
