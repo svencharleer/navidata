@@ -5,7 +5,7 @@ var db = require('../dbConnection.js').db;
 
 exports.list = function(req, res){
     db.collection('events', function(err, collection) {
-        collection.find({'verb': 'awarded'}).batchSize(20).toArray(function(err, items) {
+        collection.find({'verb': 'awarded'},{sort: 'badge_image'}).toArray(function(err, items){
             var badges = {};
             console.log(items.length);
             for(var i = 0; i < items.length; i++)
@@ -24,11 +24,12 @@ exports.list = function(req, res){
                 if(badge.awardedTo[item.username] == null)
                     badge.awardedTo[item.username] = [];
 
-                badge.awardedTo[item.username].push(item.event_id);
+                badge.awardedTo[item.username].push({student: item.username, event: item.event_id});
                 if(badge.eventIds == null) badge.eventIds = [];
                 badge.eventIds.push(item.event_id);
                 badge.description = item.badge_description;
                 badge.connotation = item.badge_connotation;
+                badge.name = item.object;
                 badge.id = item.badge_image.replace(/\/|\./g, "_");
                 badge.image = item.badge_image.replace("/img", "http://localhost:3000/images");
 
