@@ -17,6 +17,7 @@ exports.list = function(req, res){
                 {
                     badges[item.badge_image] = {};
                     badge.awardedTo = {};
+                    badge.awardedToFlat = [];
                 }
                 else
                     badge = badges[item.badge_image];
@@ -24,7 +25,8 @@ exports.list = function(req, res){
                 if(badge.awardedTo[item.username] == null)
                     badge.awardedTo[item.username] = [];
 
-                badge.awardedTo[item.username].push({student: item.username, event: item.event_id});
+                badge.awardedTo[item.username].push({student: item.username, event: item.event_id, timestamp: item.starttime});
+                badge.awardedToFlat.push({student: item.username, event: item.event_id, timestamp: new Date(item.timestamp).valueOf()});
                 if(badge.eventIds == null) badge.eventIds = [];
                 badge.eventIds.push(item.event_id);
                 badge.description = item.badge_description;
