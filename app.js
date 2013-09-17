@@ -43,6 +43,7 @@ app.get('/users', users.list);
 app.get('/relatedevents/:eventid', relatedevents.list);
 app.get('/relatedevents/activity/:verb/:eventid', relatedevents.listActivity);
 app.get('/badges', badges.list);
+app.get('/flatActivity', activity.flatList);
 app.get('/activity', activity.list);
 app.get('/activity/total/:user', activity.listForUser);
 app.get('/activity/:verb', activity.listForVerb);
