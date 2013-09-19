@@ -22,23 +22,23 @@
     <file path="$PROJECT_DIR$/../navitop/js/nwBadgeIcon.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379488051047" ignored="false" />
     <file path="/nwBadgeIcon.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377783213493" ignored="false" />
     <file path="/NaviWorld.html" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379518018872" ignored="false" />
-    <file path="$PROJECT_DIR$/../navitop/css/naviWorld.css" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379590512793" ignored="false" />
-    <file path="/naviWorld.css" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379590447312" ignored="false" />
+    <file path="$PROJECT_DIR$/../navitop/css/naviWorld.css" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379604838236" ignored="false" />
+    <file path="/naviWorld.css" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379600854741" ignored="false" />
     <file path="/activity.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379341740002" ignored="false" />
-    <file path="$PROJECT_DIR$/../navitop/js/nwNaviActivityByDayGraph.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379592776709" ignored="false" />
-    <file path="/nwNaviActivityByDayGraph.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379592776332" ignored="false" />
+    <file path="$PROJECT_DIR$/../navitop/js/nwNaviActivityByDayGraph.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379604456002" ignored="false" />
+    <file path="/nwNaviActivityByDayGraph.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379602172342" ignored="false" />
     <file path="$PROJECT_DIR$/../navitop/js/nwLogic.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379576405560" ignored="false" />
     <file path="/nwLogic.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379520561574" ignored="false" />
     <file path="/a.dummy" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379591345948" ignored="false" />
     <file path="/nwMenu.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377185168698" ignored="false" />
     <file path="/fragment.js2" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379400467892" ignored="false" />
-    <file path="$PROJECT_DIR$/../navitop/js/nwNaviGraphBar.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379512028385" ignored="false" />
-    <file path="/nwNaviGraphBar.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379511739700" ignored="false" />
-    <file path="/fragment.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379573029981" ignored="false" />
+    <file path="$PROJECT_DIR$/../navitop/js/nwNaviGraphBar.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379603389436" ignored="false" />
+    <file path="/nwNaviGraphBar.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379603389436" ignored="false" />
+    <file path="/fragment.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379602736744" ignored="false" />
     <file path="code.jquery.com/jquery-1.10.1.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377606933655" ignored="false" />
     <file path="$PROJECT_DIR$/../navitop/NaviFramework/js/NaviFramework/naviObject.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377264234066" ignored="false" />
     <file path="/naviObject.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377264233531" ignored="false" />
-    <file path="$PROJECT_DIR$/../navitop/NaviFramework/js/NaviFramework/naviFramework_UI.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377266044897" ignored="false" />
+    <file path="$PROJECT_DIR$/../navitop/NaviFramework/js/NaviFramework/naviFramework_UI.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379604743926" ignored="false" />
     <file path="/naviFramework_UI.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377265893094" ignored="false" />
     <file path="d3js.org/d3.v3.min.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1377606934801" ignored="false" />
     <file path="d3js.org/d3.v3.js" changelist="2af8b498-4267-4e85-b21c-b59d124d8410" time="1379571979055" ignored="false" />
@@ -103,10 +103,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="activity.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/activity.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="54" selection-start="2359" selection-end="2359" vertical-scroll-proportion="0.0">
+            <state line="55" column="140" selection-start="1834" selection-end="1834" vertical-scroll-proportion="0.37086093">
               <folding />
             </state>
           </provider>
@@ -139,10 +139,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="badges.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="badges.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/badges.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="69" selection-start="207" selection-end="207" vertical-scroll-proportion="0.23178808">
+            <state line="7" column="69" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -184,13 +184,13 @@
         <option value="$PROJECT_DIR$/routes/comments.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/users.js" />
-        <option value="$PROJECT_DIR$/routes/activity.js" />
         <option value="$PROJECT_DIR$/routes/badges.js" />
+        <option value="$PROJECT_DIR$/routes/activity.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="235" />
+    <option name="x" value="83" />
     <option name="y" value="22" />
     <option name="width" value="1953" />
     <option name="height" value="959" />
@@ -345,14 +345,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="235" y="22" width="1953" height="959" extended-state="0" />
+    <frame x="83" y="22" width="1953" height="959" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17202072" sideWeight="0.57330155" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42669845" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42669845" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42789036" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2455304" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -536,16 +536,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/activity.js">
+    <entry file="file://$PROJECT_DIR$/routes/badges.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="54" selection-start="2359" selection-end="2359" vertical-scroll-proportion="0.0">
+        <state line="7" column="69" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/badges.js">
+    <entry file="file://$PROJECT_DIR$/routes/activity.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="69" selection-start="207" selection-end="207" vertical-scroll-proportion="0.23178808">
+        <state line="55" column="140" selection-start="1834" selection-end="1834" vertical-scroll-proportion="0.37086093">
           <folding />
         </state>
       </provider>
