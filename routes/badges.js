@@ -5,7 +5,7 @@ var db = require('../dbConnection.js').db;
 
 exports.list = function(req, res){
     db.collection('events', function(err, collection) {
-        collection.find({'verb': 'awarded'},{sort: 'badge_image'}).toArray(function(err, items){
+        collection.find({'verb': 'awarded'},{sort: {'badge_image':-1}}).toArray(function(err, items){
             var badges = {};
             console.log(items.length);
             for(var i = 0; i < items.length; i++)

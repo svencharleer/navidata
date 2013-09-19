@@ -35,8 +35,10 @@ exports.list = function(req, res){
                         {
                             if(users[items[i].Twitter] != null)
                             {
-                            users[items[i].Twitter].group = items[i].group_name;
-                            users[items[i].Twitter].fullname = items[i].student_name;
+                                users[items[i].Twitter].group = items[i].group_name;
+                                users[items[i].Twitter].fullname = items[i].student_name;
+                                users[items[i].Twitter].grade = items[i].grade;
+
                             }
                         }
                         res.writeHead(200, { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' });
