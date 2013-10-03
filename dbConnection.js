@@ -9,9 +9,9 @@ var Server = mongo.Server,
 
 
 var mongoserver = new Server('localhost', 27017, {auto_reconnect: true}),
-    db = new Db("stepupv3", mongoserver);
+    db = new Db("stepupv3", mongoserver, {safe:false});
 var mongoserver2 = new Server('localhost', 27017, {auto_reconnect: true}),
-    dbBlogs = new Db("chikul13blogs", mongoserver2);
+    dbBlogs = new Db("chikul13blogs", mongoserver2, {safe:false});
 
 db.open(function(err, db) {
     if(!err) {
