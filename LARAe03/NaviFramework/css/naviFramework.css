@@ -1,0 +1,68 @@
+body
+{
+	margin:0;
+	padding:0;
+}
+
+.square
+{
+	border: solid 1px #4d4d4d; background-color: #FFFFFF;
+}
+
+
+
+@-webkit-keyframes tween {
+
+}
+
+@-webkit-keyframes rotatetile {
+    0% {
+         -webkit-transform: rotate(0deg)
+    }
+    
+    50% {
+         -webkit-transform: rotate(180deg)
+    }
+    
+    100% {
+         -webkit-transform: rotate(360deg)
+    }
+} 
+
+.rotatingtile 
+{
+    -webkit-animation-name: rotatetile;
+    -webkit-animation-duration: 7s;
+    -webkit-animation-iteration-count: infinite;       
+}
+
+.fadingIn
+{
+	opacity:1;
+}
+
+.fadingOut
+{
+	opacity: 0;
+}
+
+.transit {
+ -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+
+.menuHidden
+{
+	top:0px;
+	left:-200px;
+}
+
+.menuShown
+{
+	top:0px;
+	left:0px;
+
+}

@@ -1,0 +1,45 @@
+<!-- TEMPLATE FILE -->
+<!-- place outside framework directory -->
+<html>
+  <head>
+    <title>NaviTemplate</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="css/naviFramework.css">
+	<script type="text/javascript" src="NaviFramework/js/3rdParty/paper.js"></script>
+	<script type="text/javascript" src="NaviFramework/js/3rdParty/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="NaviFramework/js/magictouch.js"></script>
+	
+	<script type="text/javascript" src="NaviFramework/js/NaviFramework/naviFramework_UI.js"></script>
+	<script type="text/javascript" src="NaviFramework/js/NaviFramework/naviFramework_Events.js"></script>
+	<script type="text/javascript" src="NaviFramework/js/NaviFramework/naviFramework_Animations.js"></script>
+	<script type="text/javascript" src="NaviFramework/js/NaviFramework/naviComponent_Animatable.js"></script>
+	<script type="text/javascript" src="NaviFramework/js/NaviFramework/naviComponent_Group.js"></script>
+	<script type="text/javascript" src="NaviFramework/js/NaviFramework/naviComponent_Touchable.js"></script>
+	<script type="text/javascript" src="NaviFramework/js/NaviFramework/naviObject_Scene.js"></script>
+	<script type="text/javascript" src="NaviFramework/js/NaviFramework/naviComponent_State.js"></script>
+	<script type="text/javascript" src="NaviFramework/js/NaviFramework/naviObject.js"></script>
+
+	<script type="text/javascript">
+
+
+
+function loadNaviTemplate() {
+	
+	//init framework
+	fw.init();
+	//load objects
+	var objects = [];
+	fw.addObjectsToDocument(objects);
+	//activate touch event registering
+	TouchLoop.init();
+	
+};
+
+</script>
+
+</head>
+<body onload="loadNaviTemplate()">
+<!-- tuio, only needed for tabletop deployments -->
+<object id="tuio" type="application/x-tuio">Plugin FAILED to load</object>
+</body>
+</html>

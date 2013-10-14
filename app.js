@@ -15,6 +15,7 @@ var express = require('express')
   , http = require('http')
     , db = require('./dbConnection')
   , path = require('path');
+var static = require('node-static');
 
 var app = express();
 
@@ -62,3 +63,16 @@ app.get('/comments/:url', comments.comment);
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
+
+
+//create static file server where we'll add LARAe03 interface
+var file = new static.Server('./LARAe03');
+
+require('http').createServer(function (request, response) {
+    request.addListener('end', function () {
+        //
+        // Serve files!
+        //
+        file.serve(request, response);
+    }).resume();
+}).listen(4013);

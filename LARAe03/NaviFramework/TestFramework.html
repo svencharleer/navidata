@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>Navi Framework Testbed</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="css/naviFramework.css">
+	<script type="text/javascript" src="js/3rdParty/paper.js"></script>
+	<script type="text/javascript" src="js/3rdParty/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/magictouch.js"></script>
+	
+	<script type="text/javascript" src="js/NaviFramework/naviFramework_UI.js"></script>
+	<script type="text/javascript" src="js/NaviFramework/naviFramework_Events.js"></script>
+	<script type="text/javascript" src="js/NaviFramework/naviFramework_Animations.js"></script>
+	<script type="text/javascript" src="js/NaviFramework/naviComponent_Animatable.js"></script>
+	<script type="text/javascript" src="js/NaviFramework/naviComponent_Group.js"></script>
+	<script type="text/javascript" src="js/NaviFramework/naviComponent_Touchable.js"></script>
+	<script type="text/javascript" src="js/NaviFramework/naviObject_Scene.js"></script>
+	<script type="text/javascript" src="js/NaviFramework/naviComponent_State.js"></script>
+	<script type="text/javascript" src="js/NaviFramework/naviObject.js"></script>
+	<script type="text/javascript" src="js/NaviLearnScape/navi_CustomBadge.js"></script>
+	<script type="text/javascript" src="js/NaviLearnScape/navi_CustomMenuItem.js"></script>
+	<script type="text/javascript" src="js/NaviLearnScape/navi_CustomMenu.js"></script>
+	<script type="text/javascript" src="js/NaviLearnScape/navi_CustomScene_Badges.js"></script>
+	<script type="text/javascript" src="js/NaviLearnScape/navi_CustomTile.js"></script>
+	<script type="text/javascript" src="js/NaviLearnScape/navi_CustomBackground.js"></script>
+	<script type="text/javascript" src="js/NaviLearnScape/navi_CustomTests.js"></script>
+
+
+	<script type="text/javascript">
+
+
+
+
+function ol() {
+	
+	fw.init();
+
+	var scene;
+	var menuItems = [{name:"menuBadges", text:"Badges", events:{fingerEvent: function(point, obj){scene = new BadgeScene();fw.addObjectsToDocument([scene]);}}}, {name:"menuStudents", text:"Students", events:{fingerEvent: function(point, obj){fw.removeObjectsFromDocument([scene]);}}},{name:"menuSettings", text:"Settings", events:{}}];
+	//var background = new Background("background", {x:fw.view.size.width/2, y:fw.view.size.height/2}, {w:fw.view.size.width,h:fw.view.size.height},0, "background_png");
+	var objects = [new Menu("menu", {x:0, y:0}, menuItems), tile1, tile2, new MenuItem("menuTest", "Test Menu Item", {x:15,y:50}, {})];
+	//fw.drawBackgroundItem();
+
+	fw.addObjectsToDocument(objects);
+	
+	TouchLoop.init();
+	
+
+
+	
+};
+
+</script>
+
+</head>
+<body onload="ol()">
+
+<object id="tuio" type="application/x-tuio">Plugin FAILED to load</object>
+<div id="staticImageStore" style="display:none">
+	<img src="img/background.png" id="background_png"/>
+</div>
+<div id="imageStore" style="display:none"></div>
+</body>
+</html>
