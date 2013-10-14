@@ -59,7 +59,7 @@ exports.list = function(request, res){
             users[item.username] = user;
 
         }
-        db.collection('students', function(err, collection) {
+        db.collection('students_chi13', function(err, collection) {
             collection.find().toArray(function(err, items){
                     for(var i = 0; i < items.length;i++)
                     {
