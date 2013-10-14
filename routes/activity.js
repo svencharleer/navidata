@@ -117,13 +117,6 @@ exports.flatList = function(req, res) {
 
 
 
-    //we don't need this, we're gonna load it from stepup!
-    db.collection('events', function(err, collection) {
-        collection.find( /*{verb: { $ne: 'awarded'}}*/).toArray(function(err, items) {
-            res.writeHead(200, { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' });
-            res.write(JSON.stringify(items));
-            res.end();
-        });
-    });
+
 }
 
