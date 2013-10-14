@@ -52,7 +52,7 @@ exports.listForVerbAndUser = function(req, res){
 exports.date = function(req, res){
     var verb = req.params.verb;
     var starttime = new Date(parseInt(req.params.date)).toISOString();
-    var nextday = new Date(parseInt(req.params.date)+3600000*24).toISOString();
+    var nextday = new Date(parseInt(req.params.date) + 86400000).toISOString();
     var query = verb != null ? {'starttime': {$gte:starttime, $lte: nextday}, 'verb': verb} : {'starttime': {$gte:starttime, $lte: nextday},verb: { $ne: 'awarded'}} ;
 
     console.log('Retrieving event: ' + starttime);
