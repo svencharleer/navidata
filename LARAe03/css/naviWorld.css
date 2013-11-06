@@ -197,17 +197,17 @@ img { -webkit-touch-callout: none !important;}
 {
 	display:block;
 	width:99%;
-	height:30px;
+	height:20px;
 	color: white;
 	z-index:10;
 	
 	background-color:#888888;
-	font-size:.9em;
+
 	margin:auto;
     vertical-align: middle;
 	margin:1px;
 	overflow:scroll;
-    font-size:12px;
+    font-size:8px;
     font-weight:bold;
 }
 
@@ -377,7 +377,7 @@ img { -webkit-touch-callout: none !important;}
     font-family: elysium;;
     font-size: 10px;
     color: white;
-    width:10% ;
+    width:17% ;
     display:inline-block;
 }
 
@@ -404,16 +404,16 @@ img { -webkit-touch-callout: none !important;}
 {
     display:block;
     position:absolute;
-    border-top: solid 1px cadetblue;
-    border-bottom:  dotted 1px cadetblue;
+    /*border-top: solid 1px cadetblue;
+    border-bottom:  dotted 1px cadetblue;*/
 }
 
 #nwContainerArea > svg
 {
     display:block;
     position:absolute;
-    width:550px;
-    height:160px;
+    width:600px;
+    height:110px;
 }
 
 
@@ -436,32 +436,32 @@ img { -webkit-touch-callout: none !important;}
  {
 
     top:10px;
-     left:880px;
+     left:10px;
  }
 
 #nwBlogPostGraph
 {
-    top:177px;
-    left:880px;
+    top:127px;
+    left:10px;
 }
 
 #nwBlogCommentGraph
 {
-    top:345px;
-    left:880px;
+    top:245px;
+    left:10px;
 }
 
 
 #nwTweetGraph
 {
-    top:512px;
-    left:880px;
+    top:362px;
+    left:10px;
 }
 
 #nwBadgeActivityGraph
 {
     top:680px;
-    left:880px;
+    left:5010px;
 }
 #nwBadgeContainer
 {
@@ -473,7 +473,7 @@ img { -webkit-touch-callout: none !important;}
 {
     overflow:scroll;
     padding:5px;
-    top:1250px;
+    top:515px;
     left:10px;
     width:98%;
 
@@ -483,11 +483,11 @@ img { -webkit-touch-callout: none !important;}
 
 #nwNaviDetailedActivityView
 {
-    width:300px;
-    height:820px;
+    width:600px;
+    height:460px;
     overflow:scroll;
     top:10px;
-    left:1480px;
+    left:610px;
     text-align: left;
     padding:5px;
     color:white;
@@ -501,10 +501,10 @@ img { -webkit-touch-callout: none !important;}
 #nwNaviDetailedActivityViewExternal
 {
     width:680px;
-    height:830px;
+    height:480px;
     overflow:auto;
     top:10px;
-    left:1850px;
+    left:1670px;
     text-align: left;
     padding-left:5px;
     color:white;
@@ -532,7 +532,7 @@ img { -webkit-touch-callout: none !important;}
 {
 
     top:10px;
-    left:10px;
+    left:5000px;
     width:820px;
     height:830px;
     border-top: solid 1px cadetblue;
@@ -558,7 +558,7 @@ img { -webkit-touch-callout: none !important;}
 #nwTimeSlider
 {
 
-    top:1205px;
+    top:485px;
     left:10px;
     width:98%;
     height:40px;
@@ -614,28 +614,29 @@ img { -webkit-touch-callout: none !important;}
 
 .CompareButton
 {
-    width:100px;
+    width:23px;
     color:white;
     background-color: blue;
     text-align: center;
-    padding-top:10px
+    padding-top:0px
+
 
 }
 
 #nwCompareButton
 {
-    top:1255px;
-    left:10px;
+    top:560px;
+    left:40px;
     background-color: #00daec;
-    height:40px;
+    height:22px;
 
 }
 
 #nwCompareButton2
 {
-    top:1308px;
-    left:10px;
-    height:48px;
+    top:600px;
+    left:40px;
+    height:22px;
     background-color: #410000;
 
 }
@@ -643,10 +644,10 @@ img { -webkit-touch-callout: none !important;}
 #verticalDivider1
 {
     position:absolute;
-    top:30px;
-    left:855px;
+    top:15px;
+    left:605px;
     width:1px;
-    height:780px;
+    height:465px;
     border-left:dotted 1px cadetblue;
 
 }
@@ -655,9 +656,9 @@ img { -webkit-touch-callout: none !important;}
 {
     position:absolute;
     top:30px;
-    left:1455px;
+    left:1670px;
     width:1px;
-    height:780px;
+    height:450px;
     border-left:dotted 1px cadetblue;
 
 }
@@ -687,7 +688,7 @@ img { -webkit-touch-callout: none !important;}
 {
     display:block;
     width:100%;
-    margin-bottom:2px;
+    margin-bottom:4px;
     text-align: left;
     margin-left:auto;
     margin-right:auto;
@@ -696,7 +697,7 @@ img { -webkit-touch-callout: none !important;}
 .activityType
 {
     display:inline-block;
-    width:80px;
+    width:100px;
     height:15px;
     font-size:10px;
     background-color: #004959;
@@ -706,7 +707,7 @@ img { -webkit-touch-callout: none !important;}
 {
     margin-left:2px;
     display:inline-block;
-    width:140px;
+    width:255px;
     background-color: #004959;
     font-size:10px;
     height:15px;
@@ -723,6 +724,25 @@ img { -webkit-touch-callout: none !important;}
     height:15px;
     padding-left:10px;
 }
+
+.activityLink
+{
+    margin-left:0px;
+    margin-top:0px;
+    display:block;
+    width:365px;
+    overflow: hidden;
+    border: solid 1px #004959;
+    font-size:10px;
+    height:15px;
+    padding-left:10px;
+}
+.activityLink a{
+    color:white;
+    text-decoration:none;
+}
+
+
 
 
 #nwBadgeGraphs

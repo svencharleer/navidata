@@ -17,7 +17,7 @@ exports.list = function(request, res){
     var filterAndReturnStudents = function(items) {
         var users = {};
 
-        for(var i = 0; i < items.length; i++)
+        /*for(var i = 0; i < items.length; i++)
         {
             var item = items[i];
             var user = {};
@@ -46,28 +46,31 @@ exports.list = function(request, res){
                     continue;
                  }
             }
-            else continue;
+            //once we have badges we'll have to put this back
+            //else continue;
             //end of ugly hacky stuff
-            var id = item.badge_image.replace(/\/|\./g, "_");
-            if(user.awards[id] == null)
-                user.awards[id] = [];
+            //var id = item.badge_image.replace(/\/|\./g, "_");
+            //if(user.awards[id] == null)
+            //    user.awards[id] = [];
 
-            user.awards[id].push(item.event_id);
+            //user.awards[id].push(item.event_id);
             user.username = item.username;
 
 
             users[item.username] = user;
 
-        }
-        db.collection('students_chi13', function(err, collection) {
+        }*/
+        db.collection('students_mume13', function(err, collection) {
             collection.find().toArray(function(err, items){
                     for(var i = 0; i < items.length;i++)
                     {
-                        if(users[items[i].Twitter] != null)
+                        //if(users[items[i].Twitter] != null)
                         {
-                            users[items[i].Twitter].group = items[i].group_name;
-                            users[items[i].Twitter].fullname = items[i].student_name;
-                            users[items[i].Twitter].grade = items[i].grade;
+                            users[items[i].alternateName] = {};
+                            users[items[i].alternateName].username = items[i].alternateName;
+                            users[items[i].alternateName].group = items[i].group_name;
+                            users[items[i].alternateName].fullname = items[i].student_name;
+                            users[items[i].alternateName].grade = items[i].grade;
 
                         }
                     }
@@ -105,14 +108,14 @@ exports.list = function(request, res){
                 return;
             }
             var req = http.request(options,fetchRequest);
-            req.write('{"query":"select * from event where context=\'chikul13\' and verb=\'awarded\'", "pag":"' + page + '"}');
+            req.write('{"query":"select * from event where context=\'mume13\' and verb=\'commented\'", "pag":"' + page + '"}');
             req.end();
 
         });
     }
 
     var req = http.request(options,fetchRequest);
-    req.write('{"query":"select * from event where context=\'chikul13\' and verb=\'awarded\'", "pag":"' + page + '"}');
+    req.write('{"query":"select * from event where context=\'mume13\' and verb=\'commented\'", "pag":"' + page + '"}');
     req.end();
     return;
 

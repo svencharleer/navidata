@@ -97,20 +97,24 @@ function barClick_callback(data)
         switch(data[i].verb)
         {
             case "tweeted":
-                html = "<div class='activityEntry' student='"+data[i].username+"'><div class='activityType'>tweet</div><div class='activityUser'>" + studentNames[data[i].username] + "</div><div class='activityTime'>"+ new Date(data[i].starttime).getDate() + "/" + (new Date(data[i].starttime).getMonth()+1) +"</div></div>";
                 link[i] = "https://twitter.com/" +data[i].username + "/status/" + data[i].object;
+                html = "<div class='activityEntry' student='"+data[i].username+"'><div class='activityType'>tweet</div><div class='activityUser'>" + studentNames[data[i].username] + "</div><div class='activityLink'><a target='_blank' href='"+link[i]+"'>"+link[i]+"</a></div></div>";
+
                 break;
             case "posted":
-                html = "<div class='activityEntry' student='"+data[i].username+"'><div class='activityType'>blog post</div><div class='activityUser'>" + studentNames[data[i].username] + "</div><div class='activityTime'>"+ new Date(data[i].starttime).getDate() + "/" + (new Date(data[i].starttime).getMonth()+1) +"</div></div>";
                 link[i] = data[i].object;
+                html = "<div class='activityEntry' student='"+data[i].username+"'><div class='activityType'>blog post</div><div class='activityUser'>" + studentNames[data[i].username] + "</div><div class='activityLink'><a target='_blank' href='"+link[i]+"'>"+link[i]+"</a></div></div>";
+
                 break;
-            case "commented"   :
-                html = "<div class='activityEntry' student='"+data[i].username+"'><div class='activityType'>blog comment</div><div class='activityUser'>" + studentNames[data[i].username] + "</div><div class='activityTime'>"+ new Date(data[i].starttime).getDate() + "/" + (new Date(data[i].starttime).getMonth()+1) +"</div></div>";
+            case "commented"  :
                 link[i] = data[i].object;
+                html = "<div class='activityEntry' student='"+data[i].username+"'><div class='activityType'>blog comment</div><div class='activityUser'>" + studentNames[data[i].username] + "</div><div class='activityLink'><a target='_blank' href='"+link[i]+"'>"+link[i]+"</a></div></div>";
+
                 break;
             case "awarded" :
-                html = "<div class='activityEntry' student='"+data[i].username+"'><div class='activityType'>badge</div><div class='activityUser'>" + studentNames[data[i].username] + "</div><div class='activityTime'>"+ new Date(data[i].starttime).getDate() + "/" + (new Date(data[i].starttime).getMonth()+1) +"</div></div>";
                 link[i] = data[i].object;
+                html = "<div class='activityEntry' student='"+data[i].username+"'><div class='activityType'>badge</div><div class='activityUser'>" + studentNames[data[i].username] + "</div><div class='activityLink'><a target='_blank' href='"+link[i]+"'>"+link[i]+"</a></div></div>";
+
                 break;
             default:
 
@@ -133,13 +137,13 @@ function barClick_callback(data)
                 if(bkData[obj.order].verb == "posted")
                 {
                     var linkJSON = encodeURIComponent(link[obj.order]);
-                    $.getJSON("http://degas.cs.kuleuven.be:3013/blogposts/" + linkJSON, blogpost_callback, "json");
+                    $.getJSON("http://localhost:3013/blogposts/" + linkJSON, blogpost_callback, "json");
                     console.log(linkJSON);
                 }
                 if(bkData[obj.order].verb == "commented")
                 {
                     var linkJSON = encodeURIComponent(link[obj.order]);
-                    $.getJSON("http://degas.cs.kuleuven.be:3013/comments/" + linkJSON, blogpost_callback, "json");
+                    $.getJSON("http://localhost:3013/comments/" + linkJSON, blogpost_callback, "json");
                     console.log(linkJSON);
                 }
                 if(bkData[obj.order].verb == "tweeted")

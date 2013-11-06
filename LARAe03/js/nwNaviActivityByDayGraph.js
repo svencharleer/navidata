@@ -35,7 +35,7 @@ function nwNaviActivityByDayGraph()
 }
 
 var svgW = 600;//1200;
-var svgH = 170;
+var svgH = 130;
 var graphBarPadding = 1;
 var graphPadding = 38;
 var graphTransformX = [];
@@ -353,8 +353,8 @@ var dataCache = {
 var activityData = [];
 
 
-var minDate = new Date(1361145600000);
-var maxDate = new Date(1369612800000);
+var minDate = new Date(2013, 8, 28, 0, 0, 0, 0);
+var maxDate = new Date();
 var variableMinDate = minDate;
 var variableMaxDate = maxDate;
 
