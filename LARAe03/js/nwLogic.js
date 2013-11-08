@@ -131,7 +131,7 @@ var loadingDone = function(badges, students)
     if(badgesLoaded && studentsLoaded)
     {
         addBadgeGraph("");
-        $.getJSON('http://localhost:3013/flatActivity', updateGraph, "json");
+        $.getJSON('http://degas.cs.kuleuven.be:3014/flatActivity', updateGraph, "json");
     }
 }
 

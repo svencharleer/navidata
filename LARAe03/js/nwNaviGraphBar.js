@@ -137,13 +137,13 @@ function barClick_callback(data)
                 if(bkData[obj.order].verb == "posted")
                 {
                     var linkJSON = encodeURIComponent(link[obj.order]);
-                    $.getJSON("http://localhost:3013/blogposts/" + linkJSON, blogpost_callback, "json");
+                    $.getJSON("http://degas.cs.kuleuven.be:3014/blogposts/" + linkJSON, blogpost_callback, "json");
                     console.log(linkJSON);
                 }
                 if(bkData[obj.order].verb == "commented")
                 {
                     var linkJSON = encodeURIComponent(link[obj.order]);
-                    $.getJSON("http://localhost:3013/comments/" + linkJSON, blogpost_callback, "json");
+                    $.getJSON("http://degas.cs.kuleuven.be:3014/comments/" + linkJSON, blogpost_callback, "json");
                     console.log(linkJSON);
                 }
                 if(bkData[obj.order].verb == "tweeted")

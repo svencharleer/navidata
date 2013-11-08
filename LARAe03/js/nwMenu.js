@@ -29,7 +29,7 @@ var nwMenuItem_Events =
 		else
 		{
 		    console.log("STUDENT REQUEST: LOADING");
-			$.getJSON('http://localhost:3013/users', studentsLoaded_callBack, "json");
+			$.getJSON('http://degas.cs.kuleuven.be:3014/users', studentsLoaded_callBack, "json");
             /*
             $.ajax({   url: 'http://localhost:3000/users',
 
