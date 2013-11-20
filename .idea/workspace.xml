@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2af8b498-4267-4e85-b21c-b59d124d8410" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LARAe03/NaviWorld.html" afterPath="$PROJECT_DIR$/LARAe03/NaviWorld.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/activity.js" afterPath="$PROJECT_DIR$/routes/activity.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/app_js.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/app_js.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dbConnection.js" afterPath="$PROJECT_DIR$/dbConnection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/express" afterPath="$PROJECT_DIR$/node_modules/.bin/express" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LARAe03/css/naviWorld.css" afterPath="$PROJECT_DIR$/LARAe03/css/naviWorld.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LARAe03/js/nwLogic.js" afterPath="$PROJECT_DIR$/LARAe03/js/nwLogic.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LARAe03/js/nwMenu.js" afterPath="$PROJECT_DIR$/LARAe03/js/nwMenu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LARAe03/js/nwNaviActivityByDayGraph.js" afterPath="$PROJECT_DIR$/LARAe03/js/nwNaviActivityByDayGraph.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LARAe03/js/nwNaviGraphBar.js" afterPath="$PROJECT_DIR$/LARAe03/js/nwNaviGraphBar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/users.js" afterPath="$PROJECT_DIR$/routes/users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="navidata.iws" />
@@ -38,19 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dbConnection.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dbConnection.js">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="705">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/users.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="0" selection-start="2231" selection-end="2231" vertical-scroll-proportion="0.0" vertical-offset="906" max-vertical-offset="2010">
+            <state line="71" column="59" selection-start="2651" selection-end="2651" vertical-scroll-proportion="0.0" vertical-offset="603" max-vertical-offset="1260">
               <folding />
             </state>
           </provider>
@@ -59,7 +42,7 @@
       <file leaf-file-name="blogs.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/blogs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="420">
+            <state line="15" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -68,16 +51,34 @@
       <file leaf-file-name="nwNaviGraphBar.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LARAe03/js/nwNaviGraphBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="274" selection-start="4126" selection-end="4126" vertical-scroll-proportion="0.0" vertical-offset="1458" max-vertical-offset="2955">
+            <state line="133" column="31" selection-start="4676" selection-end="4676" vertical-scroll-proportion="0.0" vertical-offset="1995" max-vertical-offset="2955">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="naviWorld.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="naviWorld.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LARAe03/css/naviWorld.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="636" column="11" selection-start="8151" selection-end="8151" vertical-scroll-proportion="0.6515151" vertical-offset="9325" max-vertical-offset="12615">
+            <state line="632" column="1" selection-start="8118" selection-end="8118" vertical-scroll-proportion="0.0" vertical-offset="9325" max-vertical-offset="12615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts_chikul13.tsv" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/posts_chikul13.tsv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="4255" selection-start="72795" selection-end="72795" vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="2235">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nwBadgeContainer.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LARAe03/js/nwBadgeContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="79" column="35" selection-start="2907" selection-end="2916" vertical-scroll-proportion="0.0" vertical-offset="1026" max-vertical-offset="2535">
               <folding />
             </state>
           </provider>
@@ -86,37 +87,16 @@
       <file leaf-file-name="NaviWorld.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LARAe03/NaviWorld.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="54" selection-start="3950" selection-end="3950" vertical-scroll-proportion="-6.2916665" vertical-offset="1199" max-vertical-offset="2025">
-              <folding>
-                <element signature="n#style#0;n#div#7;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#10;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="90" column="54" selection-start="3950" selection-end="3950" vertical-scroll-proportion="0.0" vertical-offset="1199" max-vertical-offset="2025">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nwNaviActivityByDayGraph.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="nwNaviActivityByDayGraph.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LARAe03/js/nwNaviActivityByDayGraph.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="12" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="9480">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/base.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="383" column="0" selection-start="10979" selection-end="10979" vertical-scroll-proportion="0.0" vertical-offset="5631" max-vertical-offset="6705">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="collection.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="757" column="0" selection-start="32357" selection-end="32357" vertical-scroll-proportion="0.0" vertical-offset="11241" max-vertical-offset="26040">
+            <state line="357" column="4" selection-start="10265" selection-end="10265" vertical-scroll-proportion="-1.409786" vertical-offset="5816" max-vertical-offset="9480">
               <folding />
             </state>
           </provider>
@@ -125,7 +105,16 @@
       <file leaf-file-name="nwLogic.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LARAe03/js/nwLogic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="53" selection-start="3679" selection-end="3713" vertical-scroll-proportion="0.0" vertical-offset="1803" max-vertical-offset="2145">
+            <state line="133" column="26" selection-start="3686" selection-end="3716" vertical-scroll-proportion="0.0" vertical-offset="1995" max-vertical-offset="2145">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nwMenu.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LARAe03/js/nwMenu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="36" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="975">
               <folding />
             </state>
           </provider>
@@ -155,23 +144,23 @@
         <option value="$PROJECT_DIR$/routes/comments.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/routes/badges.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/activity.js" />
-        <option value="$PROJECT_DIR$/LARAe03/js/nwLogic.js" />
-        <option value="$PROJECT_DIR$/LARAe03/js/nwMenu.js" />
         <option value="$PROJECT_DIR$/dbConnection.js" />
         <option value="$PROJECT_DIR$/routes/users.js" />
-        <option value="$PROJECT_DIR$/LARAe03/js/nwNaviGraphBar.js" />
         <option value="$PROJECT_DIR$/LARAe03/js/nwNaviActivityByDayGraph.js" />
         <option value="$PROJECT_DIR$/LARAe03/NaviWorld.html" />
         <option value="$PROJECT_DIR$/LARAe03/css/naviWorld.css" />
+        <option value="$PROJECT_DIR$/LARAe03/js/nwLogic.js" />
+        <option value="$PROJECT_DIR$/LARAe03/js/nwMenu.js" />
+        <option value="$PROJECT_DIR$/LARAe03/js/nwNaviGraphBar.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="723" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -199,6 +188,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -283,18 +273,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -303,6 +292,14 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.app.js">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -311,14 +308,6 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -363,23 +352,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="723" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1280" height="733" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2421875" sideWeight="0.64649683" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3535032" sideWeight="0.709375" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2421875" sideWeight="0.6128527" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35272276" sideWeight="0.709375" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3535032" sideWeight="0.290625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38714734" sideWeight="0.21640626" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18152866" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38714734" sideWeight="0.7835938" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -425,81 +414,34 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/activity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="75" selection-start="3500" selection-end="3500" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1920">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LARAe03/js/nwStudent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LARAe03/js/nwTimeSlider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LARAe03/js/nwStudentContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2505">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LARAe03/js/nwMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="39" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="975">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2505" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="489" column="0" selection-start="22009" selection-end="22009" vertical-scroll-proportion="1.9122807" vertical-offset="6681" max-vertical-offset="29400">
-          <folding />
-        </state>
+        <state line="489" column="0" selection-start="22009" selection-end="22009" vertical-scroll-proportion="1.9122807" vertical-offset="6681" max-vertical-offset="29400" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dbConnection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="705">
-          <folding />
-        </state>
+        <state line="16" column="0" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="705" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="757" column="0" selection-start="32357" selection-end="32357" vertical-scroll-proportion="0.0" vertical-offset="11241" max-vertical-offset="26040">
-          <folding />
-        </state>
+        <state line="757" column="0" selection-start="32357" selection-end="32357" vertical-scroll-proportion="0.0" vertical-offset="11241" max-vertical-offset="26040" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="383" column="0" selection-start="10979" selection-end="10979" vertical-scroll-proportion="0.0" vertical-offset="5631" max-vertical-offset="6705">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LARAe03/js/nwLogic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="53" selection-start="3679" selection-end="3713" vertical-scroll-proportion="0.0" vertical-offset="1803" max-vertical-offset="2145">
-          <folding />
-        </state>
+        <state line="383" column="0" selection-start="10979" selection-end="10979" vertical-scroll-proportion="0.0" vertical-offset="5631" max-vertical-offset="6705" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="2231" selection-end="2231" vertical-scroll-proportion="0.0" vertical-offset="906" max-vertical-offset="2010">
-          <folding />
-        </state>
+        <state line="68" column="0" selection-start="2231" selection-end="2231" vertical-scroll-proportion="0.0" vertical-offset="906" max-vertical-offset="2010" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/blogs.js">
@@ -509,33 +451,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LARAe03/NaviWorld.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="54" selection-start="3950" selection-end="3950" vertical-scroll-proportion="0.0" vertical-offset="1199" max-vertical-offset="2025">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LARAe03/css/naviWorld.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="632" column="1" selection-start="8118" selection-end="8118" vertical-scroll-proportion="0.0" vertical-offset="9325" max-vertical-offset="12615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts_chikul13.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="4255" selection-start="72795" selection-end="72795" vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="2235">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LARAe03/js/nwBadgeContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="35" selection-start="2907" selection-end="2916" vertical-scroll-proportion="0.0" vertical-offset="1026" max-vertical-offset="2535">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LARAe03/js/nwLogic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="26" selection-start="3686" selection-end="3716" vertical-scroll-proportion="0.0" vertical-offset="1666" max-vertical-offset="2145">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LARAe03/js/nwMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="36" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="59" selection-start="2651" selection-end="2651" vertical-scroll-proportion="0.0" vertical-offset="603" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LARAe03/js/nwNaviGraphBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="274" selection-start="4126" selection-end="4126" vertical-scroll-proportion="0.0" vertical-offset="1458" max-vertical-offset="2955">
+        <state line="133" column="31" selection-start="4676" selection-end="4676" vertical-scroll-proportion="0.0" vertical-offset="1611" max-vertical-offset="2955">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LARAe03/js/nwNaviActivityByDayGraph.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="12" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="9480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LARAe03/NaviWorld.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="54" selection-start="3950" selection-end="3950" vertical-scroll-proportion="-6.2916665" vertical-offset="1199" max-vertical-offset="2025">
-          <folding>
-            <element signature="n#style#0;n#div#7;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#10;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LARAe03/css/naviWorld.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="636" column="11" selection-start="8151" selection-end="8151" vertical-scroll-proportion="0.6515151" vertical-offset="9325" max-vertical-offset="12615">
+        <state line="357" column="4" selection-start="10265" selection-end="10265" vertical-scroll-proportion="-1.409786" vertical-offset="5816" max-vertical-offset="9480">
           <folding />
         </state>
       </provider>

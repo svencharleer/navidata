@@ -29,7 +29,7 @@ var nwMenuItem_Events =
 		else
 		{
 		    console.log("STUDENT REQUEST: LOADING");
-			$.getJSON('http://localhost:3013/users', studentsLoaded_callBack, "json");
+			$.getJSON('http://ariadne.cs.kuleuven.be/larae3/users', studentsLoaded_callBack, "json");
             /*
             $.ajax({   url: 'http://localhost:3000/users',
 

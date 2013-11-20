@@ -18,6 +18,7 @@ var express = require('express')
 var static = require('node-static');
 
 var app = express();
+var context = '/larae3';
 
 // all environments
 app.set('port', process.env.PORT || 3013);
@@ -35,27 +36,27 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', routes.index);
-app.get('/events', events.list);
-app.get('/events/username/:username', events.username);
-app.get('/events/username/:username/:verb', events.username_verb);
-app.get('/events/verb/:verb', events.verb);
-app.get('/users', users.list);
-app.get('/relatedevents/:eventid', relatedevents.list);
-app.get('/relatedevents/activity/:verb/:eventid', relatedevents.listActivity);
-app.get('/badges', badges.list);
-app.get('/flatActivity', activity.flatList);
-app.get('/activity', activity.list);
-app.get('/activity/total/:user', activity.listForUser);
-app.get('/activity/:verb', activity.listForVerb);
-app.get('/activity/:verb/:user', activity.listForVerbAndUser);
-app.get('/activitybydate/:date/:verb', activity.date);
-app.get('/activitybydate/:date', activity.date);
-app.get('/blogposts', blogs.list);
-app.get('/blogposts/:url', blogs.blogpost);
+app.get(path.join(context,'/'), routes.index);
+app.get(path.join(context,'/events'), events.list);
+app.get(path.join(context,'/events/username/:username'), events.username);
+app.get(path.join(context,'/events/username/:username/:verb'), events.username_verb);
+app.get(path.join(context,'/events/verb/:verb'), events.verb);
+app.get(path.join(context,'/users'), users.list);
+app.get(path.join(context,'/relatedevents/:eventid'), relatedevents.list);
+app.get(path.join(context,'/relatedevents/activity/:verb/:eventid'), relatedevents.listActivity);
+app.get(path.join(context,'/badges'), badges.list);
+app.get(path.join(context,'/flatActivity'), activity.flatList);
+app.get(path.join(context,'/activity'), activity.list);
+app.get(path.join(context,'/activity/total/:user'), activity.listForUser);
+app.get(path.join(context,'/activity/:verb'), activity.listForVerb);
+app.get(path.join(context,'/activity/:verb/:user'), activity.listForVerbAndUser);
+app.get(path.join(context,'/activitybydate/:date/:verb'), activity.date);
+app.get(path.join(context,'/activitybydate/:date'), activity.date);
+app.get(path.join(context,'/blogposts'), blogs.list);
+app.get(path.join(context,'/blogposts/:url'), blogs.blogpost);
 
-app.get('/comments', comments.list);
-app.get('/comments/:url', comments.comment);
+app.get(path.join(context,'/comments'), comments.list);
+app.get(path.join(context,'/comments/:url'), comments.comment);
 
 
 

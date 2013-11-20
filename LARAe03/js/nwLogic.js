@@ -131,7 +131,7 @@ var loadingDone = function(badges, students)
     if(badgesLoaded && studentsLoaded)
     {
         addBadgeGraph("");
-        $.getJSON('http://localhost:3013/flatActivity', updateGraph, "json");
+        $.getJSON('http://ariadne.cs.kuleuven.be/larae3/flatActivity', updateGraph, "json");
     }
 }
 
