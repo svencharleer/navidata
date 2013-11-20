@@ -8,9 +8,9 @@ var Server = mongo.Server,
     BSON = mongo.BSONPure;
 
 
-var mongoserver = new Server('ensor', 27017, {auto_reconnect: true}),
+var mongoserver = new Server('ensor.cs.kuleuven.be', 27017, {auto_reconnect: true}),
     db = new Db("larae03", mongoserver, {safe:false});
-var mongoserver2 = new Server('ensor', 27017, {auto_reconnect: true}),
+var mongoserver2 = new Server('ensor.cs.kuleuven.be', 27017, {auto_reconnect: true}),
     dbBlogs = new Db("chikul13blogs", mongoserver2, {safe:false});
 
 db.open(function(err, db) {

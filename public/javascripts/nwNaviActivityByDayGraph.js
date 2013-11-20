@@ -7,13 +7,6 @@ function nwNaviActivityByDayGraph()
 	{
 		onHit: function(point, obj)
 		{
-            //find the svg
-
-            //find the rect
-
-
-			//document.getElementsByTagName("html")[0].webkitRequestFullScreen();
-			//naviOverlay.element.style.display = "block";
 		},
 		onLetGo: function(obj)
 		{
@@ -23,10 +16,7 @@ function nwNaviActivityByDayGraph()
 
 		}
 	};
-	var layer = 2;
-	
-	NObject.call(this, name, layer, null, null, "", "", eventHandler, animations, states,[], true);
-	this.element.style.display = "";
+
 
 
 
@@ -51,7 +41,7 @@ function redrawAllGraphs()
 
     graphs.forEach(function(d){
         var svg = d3.select("#"+d);
-        var mainBars = svg.select("#mainBars");
+        var mainBars = svg.select(".mainBars");
         drawGraph(dataCache[d].DATA, d,colors[0][d]);
         if(dataCache[d].DATA_USERS2.length == 0  && dataCache[d].DATA_USERS.length == 0)
         {
@@ -79,8 +69,8 @@ function redrawAllGraphs()
 
 function drawGraph(data, id, color) {
     var svg = d3.select("#"+id);
-    var mainBars = svg.select("#mainBars");
-    var subBars = svg.select("#subBars");
+    var mainBars = svg.select(".mainBars");
+    var subBars = svg.select(".subBars");
 
     graphDays = 1+ Math.floor((variableMaxDate.getTime() - variableMinDate.getTime()) / (1000 * 60 * 60 * 24));
     graphTransformX[id].domain([variableMinDate, variableMaxDate]);
@@ -102,7 +92,7 @@ function drawGraph(data, id, color) {
             //console.log("height is " + d[1] + " yScale is" + yScale(d[1]));
             return svgH - graphTransformY[id](d.value.count) - graphPadding;
         })
-        ;//.attr("fill", color);
+        .attr("fill", color);
 
     p
         .enter()
@@ -123,7 +113,7 @@ function drawGraph(data, id, color) {
             //console.log("height is " + d[1] + " yScale is" + yScale(d[1]));
             return svgH - graphTransformY[id](d.value.count) - graphPadding;
         })
-        ;//.attr("fill", color);//"teal");
+        .attr("fill", color);//"teal");
 
     p.exit().remove();
 
@@ -141,7 +131,7 @@ function drawGraph(data, id, color) {
             });
         }
     }
-    fw.addObjectsToDocument(objects);
+
 }
 
 var subGraph_mode = {ONE_LIST:0, FIRST_LIST:1, SECOND_LIST:2};
@@ -149,7 +139,7 @@ var subGraph_mode = {ONE_LIST:0, FIRST_LIST:1, SECOND_LIST:2};
 function drawSubGraph(mode, id, data) {
     var svg = d3.select("#"+id);
 
-    var mainBars = svg.select("#mainBars");
+    var mainBars = svg.select(".mainBars");
 
 
 
@@ -302,9 +292,9 @@ function addGraph(data, id, title, color) {
         .attr("transform", "translate(" + graphPadding + ",0)")
         .call(axisY[id]);
 
-    var mainBars = svg.append("g").attr("id","mainBars");
-    svg.append("g").attr("id","subBars");
-    svg.append("g").attr("id","subBars2");
+    var mainBars = svg.append("g").attr("class","mainBars");
+    svg.append("g").attr("class","subBars");
+    svg.append("g").attr("class","subBars2");
 
 }
 
@@ -364,7 +354,8 @@ function getActivityPerDay(activityPerDayFilteredArray) {
 
     var dateRange = crossfilter(activityPerDayFilteredArray);
     var dateRangeWithDayDimension = dateRange.dimension(function (f) {
-        return Date.UTC(new Date(f.starttime).getFullYear(), new Date(f.starttime).getMonth(), new Date(f.starttime).getDate())
+        var d = Date.parse(f.starttime.split(" ")[0]);
+        return Date.UTC(new Date(d).getFullYear(), new Date(d).getMonth(), new Date(d).getDate());
     });
 
     var activityPerDayFiltered = dateRangeWithDayDimension.group().reduce(
@@ -467,7 +458,7 @@ function updateGraph(data)
         }
         catch(error)
         {
-            console.log(d);
+            //console.log(d);
         }
         if(json){
             d.originalrequest = json;
@@ -482,7 +473,8 @@ function updateGraph(data)
     //only get the activity of the period we need
     var activity = crossfilter(activityData);
     var activityPerDayDimension = activity.dimension(function(f) {
-        return Date.UTC(new Date(f.starttime).getFullYear(), new Date(f.starttime).getMonth(), new Date(f.starttime).getDate());
+        var d = Date.parse(f.starttime.split(" ")[0]);
+        return Date.UTC(new Date(d).getFullYear(), new Date(d).getMonth(), new Date(d).getDate());
     });
     var _minDate = variableMinDate;
     var _maxDate = variableMaxDate;
@@ -548,9 +540,9 @@ function updateGraph(data)
             if(!graphsActivated["nwBadgeGraphs"])
             {
                 graphsActivated["nwBadgeGraphs"] = true;
-                initSingleBadgeGraphs();
+               // initSingleBadgeGraphs();
             }
-            loadSingleBadgeGraphs();
+            //loadSingleBadgeGraphs();
         }
 
     });
@@ -621,6 +613,3 @@ function updateGraph_UsersDeleted(user)
 }
 
 
-
-
-nwNaviActivityByDayGraph.prototype = Object.create(NObject.prototype);

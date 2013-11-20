@@ -27,7 +27,7 @@ src: url(Ubuntu-R.ttf);
     display: none; 
 }
 
-body, :-webkit-full-screen body
+body
 {
 	margin:0;
 	padding:0;
@@ -367,14 +367,14 @@ img { -webkit-touch-callout: none !important;}
 }
 
 .ActivityGraphTitle {
-    font-family: elysium;;
+    font-family: elysium;
     font-size: 14px;
 
 }
 
 
 .nwGroupDivider {
-    font-family: elysium;;
+    font-family: elysium;
     font-size: 10px;
     color: white;
     width:10% ;
@@ -436,32 +436,32 @@ img { -webkit-touch-callout: none !important;}
  {
 
     top:10px;
-     left:880px;
+     left:10px;
  }
 
 #nwBlogPostGraph
 {
     top:177px;
-    left:880px;
+    left:10px;
 }
 
 #nwBlogCommentGraph
 {
     top:345px;
-    left:880px;
+    left:10px;
 }
 
 
 #nwTweetGraph
 {
     top:512px;
-    left:880px;
+    left:10px;
 }
 
 #nwBadgeActivityGraph
 {
     top:680px;
-    left:880px;
+    left:10px;
 }
 #nwBadgeContainer
 {
@@ -583,7 +583,7 @@ img { -webkit-touch-callout: none !important;}
     width:600px;
     height:1px;
     border-bottom:dashed 2px #008293;
-    position:absolute;;
+    position:absolute;
 }
 
 #nwTimeSliderLeft
