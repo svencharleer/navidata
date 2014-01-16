@@ -60,7 +60,11 @@ function redrawAllGraphs()
             drawSubGraph(subGraph_mode.FIRST_LIST, d,dataCache[d].DATA_USERS);
         drawSubGraph(subGraph_mode.SECOND_LIST, d,dataCache[d].DATA_USERS2);
 
+
+
     });
+
+    loadBlockChart(dataCache["nwActivityGraph"].DATA);
 
 
 
@@ -68,6 +72,7 @@ function redrawAllGraphs()
 }
 
 function drawGraph(data, id, color) {
+
     var svg = d3.select("#"+id);
     var mainBars = svg.select(".mainBars");
     var subBars = svg.select(".subBars");
